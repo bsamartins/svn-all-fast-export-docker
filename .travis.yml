@@ -1,0 +1,5 @@
+service:
+  - docker
+
+before_install:
+  docker build .

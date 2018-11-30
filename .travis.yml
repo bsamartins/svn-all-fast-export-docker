@@ -1,0 +1,6 @@
+language: generic
+service:
+  - docker
+
+before_install:
+  docker build .

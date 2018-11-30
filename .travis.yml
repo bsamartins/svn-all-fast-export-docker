@@ -2,5 +2,6 @@ language: generic
 service:
   - docker
 
-before_install:
-  docker build .
+script:
+  docker build -tag bsamartins/svn-all-fast-export:latest bsamartins/svn-all-fast-export:2.0 .
+

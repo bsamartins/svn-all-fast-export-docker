@@ -3,5 +3,5 @@ service:
   - docker
 
 script:
-  docker build -tag bsamartins/svn-all-fast-export:latest bsamartins/svn-all-fast-export:2.0 .
+  docker build -tag bsamartins/svn-all-fast-export:latest bsamartins/svn-all-fast-export:2.1 .
 
